@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Reg Form</title>
+        <meta charset="utf-8">
+    </head>
+<form action="process.php" method="post">
+    <p>My Registration Form</p>
+    <label for="first_name">First Name:</label>
+    <input type="text" id="first_name" name="first_name">
+
+    <label for="last_name">Last Name:</label>
+    <input type="text" id="last_name" name="last_name">
+
+    <label id="email">Email:</label>
+    <input type="text" id="e_mail" name="email">
+
+    <label for="pssword">Password</label>
+    <input type="password" id="pssword" name="pssword">
+
+    <label for="pw_confirm">Confirm Password</label>
+    <input type="password" id="pw_confirm" name="pw_confirm">
+
+    <label for="birthday">Date of Birth</label>
+    <input type="date" id="birthday" name="birthday">
+
+    <p>Select your gender:</p>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male">
+
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="female">
+
+    <label for="other">Other</label>
+    <input type="radio" id="other" name="gender" value="other">
+
+    <p>A short description about yourself:</p>
+    <textarea name="description"></textarea>
+
+    <p>What is your favorite lenguage:</p>
+    <select name="lenguage">
+         <option value="JavaScript">JavaScript</option>
+         <option value="swift">Swift</option>
+         <option value="python">Python</option>
+    </select>
+
+
+</form>
+
+</html>
